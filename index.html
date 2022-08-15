@@ -11,6 +11,8 @@
   <!-- Boostrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
@@ -51,7 +53,7 @@
   <section class="jumbotron text-center">
     <img src="img/img3.png" alt="Foto" width="200px" class="rounded-circle img-thumbnail">
     <h1 class="display">Ndikspry</h1>
-    <p class="lead">Web Development | Front end</p>
+    <p class="lead"></p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
         d="M0,192L48,186.7C96,181,192,171,288,154.7C384,139,480,117,576,128C672,139,768,181,864,192C960,203,1056,181,1152,154.7C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -69,11 +71,11 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore deserunt maxime quos placeat possimus quas
             sunt amet alias praesentium est.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iste alias, inventore, vitae harum ipsam
             natus ut aperiam, vel tempora perspiciatis dolor quas cupiditate facere!</p>
         </div>
@@ -98,7 +100,7 @@
 
       <div class="row justify-content-evenly">
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
             <img src="projects/1.jpg" class="card-img-top" alt="project1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -109,7 +111,7 @@
         </div>
 
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
             <img src="projects/2.jpg" class="card-img-top" alt="project1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -120,7 +122,7 @@
         </div>
 
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
             <img src="projects/3.jpg" class="card-img-top" alt="project1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -131,7 +133,7 @@
         </div>
 
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
             <img src="projects/4.jpg" class="card-img-top" alt="project1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -142,7 +144,7 @@
         </div>
 
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
             <img src="projects/5.jpg" class="card-img-top" alt="project1">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -161,6 +163,57 @@
   </section>
   <!-- Akhir Project -->
 
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-3 pb-2">
+          <a href="#">
+            <img src="img/1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+
+
+        <div class=" col-md-3 pb-2">
+          <a href="#">
+            <img src="img/2.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+
+        <div class="col-md-3 pb-2">
+          <a href="#">
+            <img src="img/3.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+
+        <div class="col-md-3 pb-2">
+          <a href="#">
+            <img src="img/4.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+
+        <div class="col-md-3 pb-2">
+          <a href="#">
+            <img src="img/5.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#">
+            <img src="img/6.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Gallery -->
+
   <!-- Contact -->
   <section id="contact">
     <div class="container">
@@ -178,7 +231,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <div class="mb-3">
-              <label for="name" class="form-label">Name Lengkap</label>
+              <label for="name" class="form-label">Nama Lengkap</label>
               <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
             </div>
             <div class=" mb-3">
@@ -221,6 +274,33 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    const galleryImage = document.querySelectorAll('.gallery-img')
+
+    galleryImage.forEach((img, i) => {
+      img.dataset.aos = 'fade-down';
+      img.dataset.aosDelay = i * 100;
+      img.dataset.aosDuration = 1000;
+    });
+
+    AOS.init({
+      once: true,
+    });
+  </script>
+
+  <script>
+    gsap.to('.lead', { duration: 2, delay: 1.5, text: "Web Development | Front end", ease: "none" });
+    gsap.from('.navbar', { duration: 1.5, ease: "bounce.out", y: '-100%', opacity: 0 });
+    gsap.from('.jumbotron img', { duration: 1, rotationY: 360, opacity: 0 });
+    gsap.from('.display', { duration: 1, x: -100, delay: 0.5, opacity: 0, ease: 'back' });
+  </script>
 
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz_7zomUig2nT9AQLUNQ0L-vNYwPsiFDX_17aMhDQm9t4S4E_dnZOdU8aMkvJSGPogMxg/exec'

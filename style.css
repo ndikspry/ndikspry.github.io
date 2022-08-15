@@ -10,3 +10,7 @@
 section {
     padding-top: 5rem;
 }
+
+.gallery-img {
+    width: 100%;
+}
