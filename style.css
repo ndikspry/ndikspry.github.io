@@ -16,5 +16,9 @@ section {
 }
 
 svg {
-    fill: rgb(54, 169, 54) !important;
+    fill: green;
+}
+
+footer {
+    background-color: green;
 }
