@@ -14,3 +14,7 @@ section {
 .gallery-img {
     width: 100%;
 }
+
+svg {
+    fill: rgb(54, 169, 54) !important;
+}
